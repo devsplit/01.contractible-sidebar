@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple, ready to use and responsive layout template using a collapsable sidebar widget.">
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="src/css/main.css" rel="stylesheet">
-    <title>Home • Contractible Sidebar</title>
-    <script src="src/js/main.js" defer></script>
+    <link href="../css/main.css" rel="stylesheet">
+    <title>Settings • Contractible Sidebar</title>
+    <script src="../js/main.js" defer></script>
   </head>
   <body>
     <main>
@@ -17,7 +16,7 @@
         <div class="mobile-menu-toggle">
           <i class="mobile-menu-toggle-icon bx bx-menu"></i>
         </div>
-        <h2 class="topbar-title">HOME</h2>
+        <h2 class="topbar-title">SETTINGS</h2>
       </header>
       <div class="page-w">
         <aside class="sidebar-w">
@@ -25,25 +24,25 @@
             <h1 class="sidebar-title">MENU</h1>
             <ul class="sidebar-links">
               <li class="sidebar-link-w">
-                <a class="sidebar-link sidebar-link-selected" href="#">
+                <a class="sidebar-link" href="../../">
                   <i class="link-icon bx bx-home"></i>
                   <span class="link-value">HOME</span>
                 </a>
               </li>
               <li class="sidebar-link-w">
-                <a class="sidebar-link has-unread" href="src/pages/wallet.html">
+                <a class="sidebar-link has-unread" href="wallet.html">
                   <i class="link-icon bx bx-wallet"></i>
                   <span class="link-value">WALLET</span>
                 </a>
               </li>
               <li class="sidebar-link-w">
-                <a class="sidebar-link" href="src/pages/transactions.html">
+                <a class="sidebar-link" href="transactions.html">
                   <i class="link-icon bx bx-transfer-alt"></i>
                   <span class="link-value">TRANSACTIONS</span>
                 </a>
               </li>
               <li class="sidebar-link-w">
-                <a class="sidebar-link" href="src/pages/settings.html">
+                <a class="sidebar-link sidebar-link-selected" href="#">
                   <i class="link-icon bx bx-cog"></i>
                   <span class="link-value">SETTINGS</span>
                 </a>
@@ -52,7 +51,7 @@
           </nav>
         </aside>
         <div class="main-content">
-          <p class="page-description">This is the home page content</p>
+          <p class="page-description">This is the settings page content</p>
         </div>
       </div>
     </main>
